@@ -6,9 +6,9 @@ body{
     font-family: Arial;
 }
 .container{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(149, 255, 117);
     max-width: 1440px;
-    max-height: 500px;
+    height: 500px;
 }
 .titulo{
     max-width: auto ;
@@ -21,15 +21,38 @@ body{
 }
 .container p{
     text-align: center;
+    margin: 2px;
 }
 .imagem{
-    height: 400px;
+    height: 300px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    
+    
+}
+.imagem img{
+    height: 250px;
+    border-bottom: solid black 3px;
+   
+}
+.imagem figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: red;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
-.imagem img{
-    height: 350px;
-    border-bottom: solid black 3px;
+.conteudo #biografia{
+    text-align: center;
+    margin: 20px;
+    height: 100px;
+    
 }
