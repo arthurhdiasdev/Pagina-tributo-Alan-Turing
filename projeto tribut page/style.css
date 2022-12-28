@@ -5,10 +5,16 @@
 body{
     font-family: Arial;
 }
-.container{
-    background-color: rgb(149, 255, 117);
-    max-width: 1440px;
-    height: 500px;
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.introdução{
+    background-color: #000000;
+}
+#subtitulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 .titulo{
     max-width: auto ;
@@ -17,23 +23,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px;
-}
-.container p{
-    text-align: center;
-    margin: 2px;
+    color: rgb(255, 255, 255);
 }
 .imagem{
     height: 300px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    
-    
+    margin-top: 10px;
 }
 .imagem img{
-    height: 250px;
+    height: 280px;
+    width: 100%;
     border-bottom: solid black 3px;
    
 }
@@ -41,18 +43,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: red;
 }
 .conteudo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.conteudo #biografia{
-    text-align: center;
-    margin: 20px;
-    height: 100px;
-    
 }
